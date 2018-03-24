@@ -1,39 +1,11 @@
 /* Background Lines */
 .NavLines {
-	position:fixed;
+	position: fixed;
 	z-index: $NavLines;
-	top:0;
-	left:-1000%;
-	width:100%;
-	height:100%;
-	opacity:0;
-	transition:opacity .5s ease;
-
-	&.is-active {
-	    left:0;
-		opacity:.1;
-	}
-
-	&-one,
-	&-two,
-	&-three,
-	&-four,
-	&-five,
-	&-six {
-		position:fixed;
-		z-index: $NavLines-x;
-		left:0;
-		width:200%;
-		height:1px;
-		background-color: #fff;
-		transform:rotate(-45deg);
-		transform-origin:0 0;
-	}
-	
-	&-one { top:50%; }
-	&-two { top:90%; }
-	&-three { top:130%; }
-	&-four { top:170%; }
-	&-five { top:210%; }
-	&-six { top:250%; }
+	top: 0;
+	left: -1000%;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	transition: opacity .5s ease;
 }

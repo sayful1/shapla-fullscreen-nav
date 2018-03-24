@@ -1,0 +1,6 @@
+# Folders
+.idea/
+.sass-cache/
+
+# Files
+assets/css/style.css.map

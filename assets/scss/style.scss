@@ -2,7 +2,6 @@
 // sass --watch assets/scss:assets/css --style expanded
 // sass --watch assets/scss:assets/css --style compact
 // sass --watch assets/scss:assets/css --style compressed
-
 @import 'variables';
 @import 'button';
 @import 'bg-lines';
@@ -11,6 +10,7 @@
 @import 'menu-wrapper';
 @import 'menu';
 @import 'responsive';
+@import 'modal';
 
 .is-body-clipped {
 	overflow: hidden;
