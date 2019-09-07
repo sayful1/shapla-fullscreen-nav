@@ -4,7 +4,7 @@
 	.MenuWrapper {
 		top: 3em;
 		width: 240px;
-		margin:0 0 0 4em;
+		margin: 0 0 0 4em;
 	}
 
 	// sub-menu arrow line
@@ -20,24 +20,29 @@
 			font-size: 1.25rem;
 			line-height: 1.5;
 		}
+
 		// the arrow button
 		ul li span {
 			top: 0;
 			width: 50px;
 		}
+
 		// arrow hover
 		.menu-item-has-children:hover span {
 			right: -5px;
 		}
+
 		// arrow hover (when sub-menu active)
 		.menu li span.is-submenu-active:hover {
 			padding-right: 5px;
 		}
+
 		// active sub-menu arrow
 		.menu li span.is-submenu-active {
 			width: 30px;
 			transform: translateX(-220px);
 		}
+
 		// sub-menu indicator arrow line (when sub-menu active)
 		.menu li span.is-submenu-active .sub-menu-arrow-line {
 			width: 20px;

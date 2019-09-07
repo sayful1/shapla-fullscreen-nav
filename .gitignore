@@ -1,6 +1,10 @@
 # Folders
 .idea/
-.sass-cache/
+node_modules/
+assets/css/
+assets/js/
+vendor/
 
 # Files
-assets/css/style.css.map
+package-lock.json
+**.map
